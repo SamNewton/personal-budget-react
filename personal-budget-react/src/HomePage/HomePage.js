@@ -1,4 +1,6 @@
 import React from 'react';
+import axios from 'axios';
+import Chart from '../Chart/Chart';
 
 function HomePage() {
   return (
@@ -66,7 +68,7 @@ function HomePage() {
             <div className="text-box">
                 <h1>Chart</h1>
                 <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                    <Chart></Chart>
                 </p>
             </div>
 
